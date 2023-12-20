@@ -5,6 +5,10 @@ const routes = [
         path: '/',
         component:() => import('../views/Home.vue'),
     },
+    {
+        path: '/cadastrar-anime',
+        component:() => import('../views/Post.vue'),
+    }
 ];
 
 const router = createRouter({
